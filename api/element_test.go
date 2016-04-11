@@ -5,9 +5,9 @@ import (
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	. "github.com/sclevine/agouti/api"
-	"github.com/sclevine/agouti/api/internal/mocks"
-	. "github.com/sclevine/agouti/internal/matchers"
+	. "github.com/totherme/agouti/api"
+	"github.com/totherme/agouti/api/internal/mocks"
+	. "github.com/totherme/agouti/internal/matchers"
 )
 
 var _ = Describe("Element", func() {

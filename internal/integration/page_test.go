@@ -9,8 +9,8 @@ import (
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/sclevine/agouti"
-	. "github.com/sclevine/agouti/matchers"
+	"github.com/totherme/agouti"
+	. "github.com/totherme/agouti/matchers"
 )
 
 func testPage(browserName string, newPage pageFunc) {
