@@ -78,7 +78,7 @@ func (s *Service) Stop() error {
 	if runtime.GOOS == "windows" {
 		err = s.command.Process.Kill()
 	} else {
-		err = s.command.Process.Signal(syscall.SIGTERM)
+		err = s.command.Process.Signal(syscall.SIGKILL)
 	}
 	if err != nil {
 		return fmt.Errorf("failed to stop command: %s", err)
